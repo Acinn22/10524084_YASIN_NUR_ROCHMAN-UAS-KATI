@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Form Booking - Opak Sampeu Sutra</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <!-- HEADER -->
+  <div class="header">
+    <h1>Form Booking Jasa</h1>
+    <marquee>Isi data di bawah untuk memesan layanan kami!</marquee>
+  </div>
+  <!-- MENU -->
+  <div class="menu">
+    <a href="index.html" class="nav-btn">Beranda</a>
+    <a href="transaksi.html" class="nav-btn">Pesan</a>
+    <a href="tentang.html" class="nav-btn">Tentang Kami</a>
+  </div>
+  <!-- MAIN LAYOUT -->
+  <div class="main-layout">
+    <div class="sidebar left">
+      <h3>Kategori</h3>
+      <ul>
+        <li>Opak Sampeu</li>
+        <li>Kacang Noga</li>
+        <li>Renginang</li>
+        <li>Gendar</li>
+        <li>Misda</li>
+        <li>Pisang Aroma</li>
+        <li>Baso Stick</li>
+      </ul>
+    </div>
+    <div class="content">
+      <h2 style="text-align:center;">Form Pemesanan</h2>
+      <hr>
+      <form>
+        <table style="margin:0 auto;">
+          <tr>
+            <td>Nama Lengkap</td>
+            <td><input type="text" name="nama" size="40" required></td>
+          </tr>
+          <tr>
+            <td>Email</td>
+            <td><input type="email" name="email" size="40" required></td>
+          </tr>
+          <tr>
+            <td>Nomor Telepon</td>
+            <td><input type="text" name="telepon" size="40" required></td>
+          </tr>
+          <tr>
+            <td>Kategori</td>
+            <td>
+              <select name="jasa" required>
+                <option>Opak Sampeu</option>
+                <option>Kacang Noga</option>
+                <option>Renginang</option>
+                <option>Gendar</option>
+                <option>Misda</option>
+                <option>Pisang Aroma</option>
+                <option>Baso Stick</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>Tanggal Pemesanan</td>
+            <td><input type="date" name="tanggal" required></td>
+          </tr>
+          <tr>
+            <td colspan="2" style="text-align:center;">
+              <button type="submit" class="pesan-btn">Kirim Pemesanan</button>
+            </td>
+          </tr>
+        </table>
+      </form>
+    </div>
+    <div class="sidebar right">
+      <h3>Info</h3>
+      <ul>
+        <li>Kontak: 08xxxxxxxxxx</li>
+        <li>Email: opaksampeu@email.com</li>
+        <li>Instagram: @opaksampeu</li>
+      </ul>
+      <h4>Promo Spesial!</h4>
+      <p>Beli 10 gratis 1!</p>
+    </div>
+  </div>
+  <div class="footer">
+    <p>2025 Opak Sampeu Sutra</p>
+  </div>
+</body>
+</html>
